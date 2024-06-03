@@ -2994,9 +2994,8 @@ class Series(base.IndexOpsMixin, NDFrame):  # type: ignore[misc]
         >>> s1 = pd.Series([1.0, 2.0])
         >>> s2 = pd.Series([1.1, 2.2])
         >>> s1.compare(s2, atol=0.1)
-                col1
           self other
-        0  2.0   2.2
+        1  2.0   2.2
 
         """
         ),
